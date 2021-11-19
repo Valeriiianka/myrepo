@@ -1,0 +1,9 @@
+вводим какой-то текст и нажимаем <Enter>, а потом <Ctrl+C>
+
+git add *
+git commit -m "first commit" → вместо слов “first commit”, вписываем любое уникальное сообщение. 
+
+следующую строку копируем из инструкции автоматически генерируемой при создании репозитория на github:
+git remote add origin git@github.com:<логин>/<репозиторий>.git 
+
+git push origin master (либо: git push origin main, если в консоли рядом с название репозитория пишется “(main)”)
